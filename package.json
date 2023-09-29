@@ -1,7 +1,7 @@
 {
   "name": "shopify-monitor",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hello, I am [Rock](https://www.twitter.com/rockkdev) from the team at [StormeIO](https://www.twitter.com/stormeio) and I have decided to open-source a project of mine. It scans and waits for any changes on any Shopify site. Any product added/restocked will be sent to a webhook provided in the *config.json* file. I kindly ask you to not steal the code and rebrand it, at minimum keep the footer message.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,5 +16,7 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "url": "^0.11.0"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }

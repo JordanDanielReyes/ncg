@@ -1,3 +1,21 @@
+const http = require('http'); // Import the HTTP module
+
+// Your code here...
+
+// Set the server port based on the PORT environment variable or default to 8000
+let port = process.env.PORT || 8000;
+
+// Create an HTTP server
+const server = http.createServer((req, res) => {
+  // Handle HTTP requests here...
+});
+
+// Listen on the specified PORT
+server.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
+
+// The rest of your code...
 const Monitor = require('./class/monitor.js');
 const { sendWebhook } = require('../utils/webhook.js');
 
@@ -38,4 +56,4 @@ sites.forEach(site => {
         }
         console.log('Restock @ ' + restockDetails.site + ': ' + restockDetails.product.title)
     });
-})
+});
