@@ -17,7 +17,7 @@ module.exports = {
                     },
                     footer: {
                         icon_url: "https://cdn.iconscout.com/icon/free/png-256/shopify-226579.png",
-                        text: "Shopify Monitor by Rock @ StormeIO"
+                        text: "not a cook group"
                     },
                     type: 'rich',
                     fields: productDetails.restockedVariants.map((variant) => {
