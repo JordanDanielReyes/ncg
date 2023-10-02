@@ -1,5 +1,5 @@
 ## Shopify Monitor
-Hello, I am [Rock](https://www.twitter.com/rockkdev) from the team at [StormeIO](https://www.twitter.com/stormeio) and I have decided to open-source a project of mine. It scans and waits for any changes on any Shopify site. Any product added/restocked will be sent to a webhook provided in the *config.json* file. I kindly ask you to not steal the code and rebrand it, at minimum keep the footer message.
+Scans and waits for any changes on any Shopify site. Any product added/restocked will be sent to a webhook provided in the *config.json* file.
 
 ## Example Images
 
@@ -32,16 +32,3 @@ Hello, I am [Rock](https://www.twitter.com/rockkdev) from the team at [StormeIO]
 > 9. Now, wait for it to install completely.
 > 10. Now you can type this command:
 >> `npm start`
->
-> 🎉 DONE! 🥳 You are now monitoring Shopify. Please report any issues in the issues tab.
-
-## Extra
-
-### Planned Additions
-* Filter for keywords
-* Support for user pinging based on keywords
-* Slack webhook support
-
-### Development
-
-This is really easy to edit if you are proficient in NodeJS. I encourage any devs to make a fork and add any features they would like.
